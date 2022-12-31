@@ -2,7 +2,7 @@ class TheX11w < Formula
   desc "The Hessling Editor (the); x11w variant"
   homepage "https://hessling-editor.sourceforge.io"
   url "https://www.rexx.guru/the-4.0.tar.gz"
-  sha256 "a2db5787970b6aa8dc30f76c5b648e9a84f0ee6229e65915a929dcbeccbd6ad5"
+  sha256 "1791786134d9e8f89b88dd8c8cdfa132c5237cc9bd00aaf114265a2fd49cf057"
   license "GPL-2.0-only"
 
   depends_on "pkg-config"
