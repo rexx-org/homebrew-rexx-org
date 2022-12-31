@@ -5,12 +5,14 @@ class TheSdl2w < Formula
   sha256 "a3fb152543d91a57aec4a38886f765863e33a49d49bee6524b369e6da923d039"
   license "GPL-2.0-only"
 
+  depends_on "pkg-config"
   depends_on "regina-rexx"
   depends_on "sdl2"
   depends_on "sdl2_ttf"
   depends_on "the"
 
   def install
+    ENV.deparallelize
     system "./configure",
            *std_configure_args,
            "--disable-silent-rules",

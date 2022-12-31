@@ -1,21 +1,25 @@
 class TheX11w < Formula
   desc "The Hessling Editor (the); x11w variant"
   homepage "https://hessling-editor.sourceforge.io"
-  url "https://downloads.sourceforge.net/project/hessling-editor/hessling-editor/4.0/the-4.0.tar.gz"
-  sha256 "a3fb152543d91a57aec4a38886f765863e33a49d49bee6524b369e6da923d039"
+  url "https://www.rexx.guru/the-4.0.tar.gz"
+  sha256 "a2db5787970b6aa8dc30f76c5b648e9a84f0ee6229e65915a929dcbeccbd6ad5"
   license "GPL-2.0-only"
 
-  depends_on "regina-rexx"
+  depends_on "pkg-config"
   depends_on "libxaw"
+  depends_on "regina-rexx"
   depends_on "the"
 
   def install
+    odie "This variant currently not working"
+    ENV.deparallelize
     system "./configure",
            *std_configure_args,
            "--disable-silent-rules",
            "--with-rexx=regina",
            "--with-curses=pdcurses-x11w",
-           "--with-arch=none"
+           "--with-arch=none",
+           "--with-homedir=#{HOMEBREW_PREFIX}/share/the"
     system "make", "installbinary"
   end
 

@@ -9,6 +9,7 @@ class TheVtw < Formula
   depends_on "the"
 
   def install
+    ENV.deparallelize
     system "./configure",
            *std_configure_args,
            "--disable-silent-rules",

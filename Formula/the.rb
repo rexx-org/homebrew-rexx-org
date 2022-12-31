@@ -12,7 +12,8 @@ class The < Formula
            "--disable-silent-rules",
            "--with-rexx=none",
            "--with-curses=pdcurses-vt",
-           "--with-arch=none"
+           "--with-arch=none",
+           "--with-homedir=#{HOMEBREW_PREFIX}/share/the"
     system "make", "installcommon"
   end
 
