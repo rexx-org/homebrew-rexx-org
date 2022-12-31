@@ -11,7 +11,6 @@ class TheX11w < Formula
   depends_on "the"
 
   def install
-    odie "This variant currently not working"
     ENV.deparallelize
     system "./configure",
            *std_configure_args,
