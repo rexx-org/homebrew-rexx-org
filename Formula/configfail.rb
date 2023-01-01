@@ -5,12 +5,15 @@ class Configfail < Formula
   sha256 "d806882de2d535d77eeb3f647cbad7ec6c7a27cb8885c1bf5bbae2bfa69c1433"
   license "GPL-2.0-only"
 
+  depends_on "pkg-config"
+  depends_on "libxaw"
+
   def install
     ENV.deparallelize
     system "./configure",
            *std_configure_args,
            "--disable-silent-rules",
-           "--with-package=xaw"
+           "--with-package='xaw7 xmu xpm'"
   end
 
   test do

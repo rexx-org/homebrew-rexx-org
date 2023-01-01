@@ -12,6 +12,7 @@ class TheX11w < Formula
 
   def install
     ENV.deparallelize
+    opoo "If you see an error message below about Intrinsic.h being unavailable please let me know at mark@rexx.org"
     system "./configure",
            *std_configure_args,
            "--disable-silent-rules",
