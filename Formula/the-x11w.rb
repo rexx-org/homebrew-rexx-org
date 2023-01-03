@@ -5,8 +5,6 @@ class TheX11w < Formula
   sha256 "2d034bfdd60888d8fcd9497b16ac49bf284833367a91718148ac6e55e951beb1"
   license "GPL-2.0-only"
 
-  depends_on "pkg-config"
-  depends_on "libxaw"
   depends_on "regina-rexx"
   depends_on "the"
 
@@ -20,7 +18,7 @@ class TheX11w < Formula
            "--with-curses=pdcurses-x11w",
            "--with-arch=none",
            "--with-homedir=#{HOMEBREW_PREFIX}/share/the"
-    system "make", "installbinary"
+    system "/usr/bin/make", "installbinary"
   end
 
   test do
