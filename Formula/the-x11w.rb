@@ -10,7 +10,8 @@ class TheX11w < Formula
 
   def install
     ENV.deparallelize
-    opoo "If you see an error message below about Intrinsic.h being unavailable please let me know at mark@rexx.org"
+    opoo "If you see an error message below about Intrinsic.h being unavailable it is likely you don't have the xquartz cask installed."
+    opoo "Unfortunately HomeBrew does not support a Formula depending on a Cask."
     system "./configure",
            *std_configure_args,
            "--disable-silent-rules",
