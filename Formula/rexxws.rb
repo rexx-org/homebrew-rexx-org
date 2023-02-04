@@ -6,8 +6,8 @@ class Rexxws < Formula
   license "GPL-2.0-only"
 
   depends_on "pkg-config" => :build
-  depends_on "regina-rexx"
   depends_on "libwebsockets"
+  depends_on "regina-rexx"
 
   def install
     ENV.deparallelize

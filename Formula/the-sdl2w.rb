@@ -1,8 +1,8 @@
 class TheSdl2w < Formula
   desc "The Hessling Editor (the); sdl2w variant"
   homepage "https://hessling-editor.sourceforge.io"
-  url "https://downloads.sourceforge.net/project/hessling-editor/hessling-editor/4.0/the-4.0.tar.gz"
-  sha256 "a3fb152543d91a57aec4a38886f765863e33a49d49bee6524b369e6da923d039"
+  url "https://www.rexx.org/packages/the-4.0.1.tar.gz"
+  sha256 "6f8ad59d0ba6a4e68eee6c0e8543dd5410a41184c937a214d92db0e0087c3a40"
   license "GPL-2.0-only"
 
   depends_on "pkg-config"
