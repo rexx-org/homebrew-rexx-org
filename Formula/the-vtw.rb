@@ -3,7 +3,7 @@ class TheVtw < Formula
   homepage "https://hessling-editor.sourceforge.io"
 #  url "https://downloads.sourceforge.net/project/hessling-editor/hessling-editor/4.0/the-4.0.tar.gz"
   url "https://www.rexx.org/packages/the-4.0.1.tar.gz"
-  sha256 "6f8ad59d0ba6a4e68eee6c0e8543dd5410a41184c937a214d92db0e0087c3a40"
+  sha256 "b9a3833c722e54498d8bdf97119591fac96ccb45e72cfadb9b24911b7223bbe6"
   license "GPL-2.0-only"
 
   depends_on "regina-rexx"
@@ -17,6 +17,7 @@ class TheVtw < Formula
            "--with-rexx=regina",
            "--with-curses=pdcurses-vtw",
            "--with-arch=none",
+           "--with-homebrew=yes",
            "--with-homedir=#{HOMEBREW_PREFIX}/share/the"
     system "make", "installbinary"
   end

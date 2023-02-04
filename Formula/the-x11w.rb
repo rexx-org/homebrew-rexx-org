@@ -18,6 +18,7 @@ class TheX11w < Formula
            "--with-rexx=regina",
            "--with-curses=pdcurses-x11w",
            "--with-arch=none",
+           "--with-homebrew=yes",
            "--with-homedir=#{HOMEBREW_PREFIX}/share/the"
     system "/usr/bin/make", "installbinary"
   end

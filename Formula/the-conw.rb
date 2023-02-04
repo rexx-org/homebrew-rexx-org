@@ -1,8 +1,8 @@
 class TheConw < Formula
   desc "The Hessling Editor (the); ncursesw variant"
   homepage "https://hessling-editor.sourceforge.io"
-  url "https://downloads.sourceforge.net/project/hessling-editor/hessling-editor/4.0/the-4.0.tar.gz"
-  sha256 "a3fb152543d91a57aec4a38886f765863e33a49d49bee6524b369e6da923d039"
+  url "https://www.rexx.org/packages/the-4.0.1.tar.gz"
+  sha256 "b9a3833c722e54498d8bdf97119591fac96ccb45e72cfadb9b24911b7223bbe6"
   license "GPL-2.0-only"
 
   depends_on "pkg-config"
@@ -18,6 +18,7 @@ class TheConw < Formula
            "--with-rexx=regina",
            "--with-curses=ncursesw",
            "--with-arch=none",
+           "--with-homebrew=yes",
            "--with-homedir=#{HOMEBREW_PREFIX}/share/the"
     system "make", "installbinary"
   end
