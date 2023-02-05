@@ -1,8 +1,8 @@
 class Rexxpdf < Formula
   desc "Rexx interface to libwebsockets"
   homepage "https://rexxpdf.sourceforge.io"
-  url "file:///Users/mark/projects/RexxPDF/packages/rexxpdf-1.0.tar.gz"
-  sha256 "79068cfa4ba86696eca3adaa794451f7e1f7bc1badd8a6e3f8d0c1a1f6b39e3a"
+  url "https://www.rexx.org/packages/rexxpdf-1.0.1.tar.gz"
+  sha256 "aa0d57750c9fe30837d8fc6acfe2044461f4520ebc4d18f476b1a29b7ad5958b"
   license "GPL-2.0-only"
 
   depends_on "pkg-config" => :build

@@ -1,8 +1,8 @@
 class Rexxcsv < Formula
   desc "Rexx interface to libwebsockets"
   homepage "https://rexxcsv.sourceforge.io"
-  url "file:///Users/mark/projects/RexxCSV/packages/rexxcsv-1.0.1.tar.gz"
-  sha256 "9306142d59de345407b03aaa7d9e8a2b0eb950f8bafec5d536f3ba3e0f3cb493"
+  url "https://www.rexx.org/packages/rexxcsv-1.0.1.tar.gz"
+  sha256 "daed2aab7d0a3c8009bedf8cd3dbc451de8743e49b6ab068101c09dd862cdd66"
   license "GPL-2.0-only"
 
   depends_on "pkg-config" => :build

@@ -1,7 +1,7 @@
 class Rexxdw < Formula
   desc "Rexx interface to Dynamic Windows UI Toolkit"
   homepage "https://rexxws.sourceforge.io"
-  url "file:///Users/mark/projects/RexxDW/packages/rexxdw-2.2.0.tar.gz"
+  url "https://www.rexx.org/packages/rexxdw-2.2.0.tar.gz"
   sha256 "8d9f3ca6e05ff94b29af39ae186f039e83d134d6c493f5fefb2f7dba502f8d56"
   license "GPL-2.0-only"
 
