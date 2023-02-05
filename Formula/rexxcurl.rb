@@ -1,8 +1,8 @@
 class Rexxcurl < Formula
   desc "Rexx interface to libwebsockets"
   homepage "https://rexxcurl.sourceforge.io"
-  url "file:///Users/mark/projects/RexxCURL/packages/rexxcurl-2.1.0.tar.gz"
-  sha256 "fb3e6a3472cf5371bea2ab34b140027976e902fd1150dc1c5340b2919e8b0b3e"
+  url "https://www.rexx.org/packages/rexxcurl-2.1.0.tar.gz"
+  sha256 "7130ffacb572f899bda801b30cb1d7f80bda1cf3192f076cbc31a6e56bf10732"
   license "GPL-2.0-only"
 
   depends_on "pkg-config" => :build
