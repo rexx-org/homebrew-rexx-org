@@ -1,8 +1,8 @@
 class TheX11w < Formula
   desc "The Hessling Editor (the); x11w variant"
   homepage "https://hessling-editor.sourceforge.io"
-  url "https://www.rexx.guru/the-4.0.tar.gz"
-  sha256 "15894336c531a9b0c2d9dc40d66a4003d446b9fc401af12362a9996651415fc8"
+  url "https://www.rexx.org/packages/the-4.0.1.tar.gz"
+  sha256 "33c0c8dd4c032efd3d85bcb925c177992c75f07c1fcebf25020c3cec13d47b11"
   license "GPL-2.0-only"
 
   depends_on "regina-rexx"
@@ -10,7 +10,8 @@ class TheX11w < Formula
 
   def install
     ENV.deparallelize
-    opoo "If you see an error message below about Intrinsic.h being unavailable it is likely you don't have the xquartz cask installed."
+    opoo "If you see an error message below about Intrinsic.h being unavailable"
+    opoo "it is likely you don't have the xquartz cask installed."
     opoo "Unfortunately HomeBrew does not support a Formula depending on a Cask."
     system "./configure",
            *std_configure_args,

@@ -7,8 +7,8 @@ class Rexxgd < Formula
 
   depends_on "pkg-config" => :build
   depends_on "regina-rexx" => :build
-  depends_on "regina-rexx"
   depends_on "gd"
+  depends_on "regina-rexx"
 
   def install
     ENV.deparallelize

@@ -2,12 +2,12 @@ class Rexxcurl < Formula
   desc "Rexx interface to libwebsockets"
   homepage "https://rexxcurl.sourceforge.io"
   url "https://www.rexx.org/packages/rexxcurl-2.1.0.tar.gz"
-  sha256 "7130ffacb572f899bda801b30cb1d7f80bda1cf3192f076cbc31a6e56bf10732"
+  sha256 "6b90c98408df6f04935776b6570a660fe32a79a3e6d0cb74a8f3f713e3b44e46"
   license "GPL-2.0-only"
 
   depends_on "pkg-config" => :build
-  depends_on "regina-rexx"
   depends_on "curl"
+  depends_on "regina-rexx"
 
   def install
     ENV.deparallelize

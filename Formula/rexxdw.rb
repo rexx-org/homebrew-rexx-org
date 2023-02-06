@@ -6,8 +6,8 @@ class Rexxdw < Formula
   license "GPL-2.0-only"
 
   depends_on "pkg-config" => :build
-  depends_on "regina-rexx"
   depends_on "dwindows"
+  depends_on "regina-rexx"
 
   def install
     ENV.deparallelize

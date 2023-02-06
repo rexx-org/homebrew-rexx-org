@@ -5,8 +5,8 @@ class RexxsqlMy < Formula
   sha256 "41f683fa37e6cec77fc5e1b02c3756b958054823ea280aef9ea821177ad172e2"
   license "GPL-2.0-only"
 
-  depends_on "regina-rexx"
   depends_on "mysql"
+  depends_on "regina-rexx"
 
   def install
     ENV.deparallelize
