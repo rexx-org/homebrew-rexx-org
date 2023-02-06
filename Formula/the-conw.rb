@@ -2,7 +2,7 @@ class TheConw < Formula
   desc "The Hessling Editor (the); ncursesw variant"
   homepage "https://hessling-editor.sourceforge.io"
   url "https://www.rexx.org/packages/the-4.0.1.tar.gz"
-  sha256 "33c0c8dd4c032efd3d85bcb925c177992c75f07c1fcebf25020c3cec13d47b11"
+  sha256 "d49136f1df4905d748bc93832969006154810ce7904c7b20027da8cc73b1e962"
   license "GPL-2.0-only"
 
   depends_on "ncurses"
