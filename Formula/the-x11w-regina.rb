@@ -1,12 +1,13 @@
-class TheX11w < Formula
-  desc "The Hessling Editor (the); x11w variant"
+class TheX11wRegina < Formula
+  desc "The Hessling Editor (the); x11w variant using Regina"
   homepage "https://hessling-editor.sourceforge.io"
   url "https://www.rexx.org/packages/the-4.0.1.tar.gz"
-  sha256 "d49136f1df4905d748bc93832969006154810ce7904c7b20027da8cc73b1e962"
+  sha256 "208bdeac15fa1679a3c161d8cbba960bb76b4249e9ade8ae929a19199b58dced"
   license "GPL-2.0-only"
 
   depends_on "regina-rexx"
   depends_on "the"
+  conflicts_with "the-x11w-oorexx", because: "only the Regina or ooRexx version of the-x11w can be installed at a time"
 
   def install
     ENV.deparallelize
