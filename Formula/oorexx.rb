@@ -2,8 +2,7 @@ class Oorexx < Formula
   desc "Open Object Rexx (ooRexx)"
 #  keg_only "So as to not clash with files in Regina with same name"
   homepage "https://www.oorexx.org"
-#  url "https://downloads.sourceforge.net/project/hessling-editor/hessling-editor/4.0/the-4.0.tar.gz"
-  url "https://www.rexx.org/packages/oorexx-5.0.0.tar.gz"
+  url "https://www.rexx.org/packages/oorexx-5.0.0-12583.tar.gz"
   sha256 "338314a4627a8a4ecd9f402050d41ba7329b56fe110b7ddf42bfa0caf177e301"
   license "CPL-1.0"
 
