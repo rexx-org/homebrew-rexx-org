@@ -8,7 +8,7 @@ class RexxcurlRegina < Formula
   depends_on "pkg-config" => :build
   depends_on "curl"
   depends_on "regina-rexx"
-  conflicts_with "rexxcurl-oorexx", because: "only one of the Regina or ooRexx version of rexxcurl can be active at a time"
+  conflicts_with "rexxcurl-oorexx", because: "only one of the Regina or ooRexx version of rexxcurl can be active at the same time"
 
   def install
     ENV.deparallelize
