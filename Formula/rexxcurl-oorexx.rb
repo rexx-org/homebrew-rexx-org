@@ -2,7 +2,7 @@ class RexxcurlOorexx < Formula
   desc "Rexx interface to curl using ooRexx"
   homepage "https://rexxcurl.sourceforge.io"
   url "https://www.rexx.org/packages/rexxcurl-2.1.0.tar.gz"
-  sha256 "cace07043d9fa248c742e93ad9b7f7f4956b9bfd1d8593670b953fba236823ab"
+  sha256 "ce528f66b54a287634242e287ca73f6c033461eea818b81bd80bdd9239a2476e"
   license "CPL-1.0"
 
   depends_on "pkg-config" => :build
