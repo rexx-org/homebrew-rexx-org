@@ -22,6 +22,6 @@ class RexxcurlOorexx < Formula
   end
 
   test do
-    system "false"
+    assert_match "REXX-ooRexx", shell_output("#{bin}/rexxcurl -v")
   end
 end
