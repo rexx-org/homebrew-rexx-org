@@ -11,7 +11,7 @@ class Oorexx < Formula
 
   def install
     ENV.deparallelize
-    system "./cmake",
+    system "cmake",
            "-G", "Unix Makefiles",
            "-S", ".",
            "-B", "./build",
