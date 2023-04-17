@@ -2,11 +2,11 @@ class RexxgdOorexx < Formula
   desc "Rexx interface to gd using ooRexx"
   homepage "https://rexxgd.sourceforge.io"
   url "https://www.rexx.org/packages/rexxgd-2.2.0.tar.gz"
-  sha256 "3be2bed28afd9ec2ade85cc0a9f747a05cdbfdc56e85b35b41468842fa7d1c51"
+  sha256 "aa0532fff1815c646ffdd51c4c57fbfca6d98b5f0f2386d73125e0efc7611715"
   license "CPL-1.0"
 
   depends_on "pkg-config" => :build
-  depends on "gd"
+  depends_on "gd"
 #  depends_on "oorexx"
   conflicts_with "rexxgd-regina", because: "only one of the Regina or ooRexx version of rexxgd can be active at the same time"
 
