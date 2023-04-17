@@ -2,7 +2,7 @@ class RexxgdOorexx < Formula
   desc "Rexx interface to gd using ooRexx"
   homepage "https://rexxgd.sourceforge.io"
   url "https://www.rexx.org/packages/rexxgd-2.2.0.tar.gz"
-  sha256 "2419440bea1a103644b7bc291074e45f6d732ba9afaba3cf67af058d1a8e3a36"
+  sha256 "801745e076119af71fe5cccc2f51cc3c808e44de8afd27493564158d7b3a0646"
   license "CPL-1.0"
 
   depends_on "pkg-config" => :build
