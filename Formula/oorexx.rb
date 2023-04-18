@@ -2,9 +2,8 @@ class Oorexx < Formula
   desc "Open Object Rexx (ooRexx)"
   #  keg_only "So as to not clash with files in Regina with same name"
   homepage "https://www.oorexx.org"
-  #url "https://www.rexx.org/packages/oorexx-5.0.0-12583.tar.gz"
-  url "https://www.rexx.org/packages/oorexx-5.0.0.tar.gz"
-  sha256 "e9f99a6b9ce726acf123b9753cf6673b7f466b7223db7df7fe9472859d49e9a0"
+  url "https://www.rexx.org/packages/oorexx-5.0.0-12583.tar.gz"
+  sha256 "28270307b41cf012b8d303ac5c962644046d7658fea723aa17f84cf39c25d340"
   license "CPL-1.0"
 
   depends_on "cmake" => :build
