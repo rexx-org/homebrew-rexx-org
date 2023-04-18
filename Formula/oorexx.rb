@@ -3,7 +3,7 @@ class Oorexx < Formula
   #  keg_only "So as to not clash with files in Regina with same name"
   homepage "https://www.oorexx.org"
   url "https://www.rexx.org/packages/oorexx-5.0.0-12583.tar.gz"
-  sha256 "28270307b41cf012b8d303ac5c962644046d7658fea723aa17f84cf39c25d340"
+  sha256 "f701f9a62c5104aef223a6c22e69e72253659ac28ca8aa8b88cb51e797e92f7d"
   license "CPL-1.0"
 
   depends_on "cmake" => :build
