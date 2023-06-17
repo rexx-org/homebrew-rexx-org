@@ -16,6 +16,8 @@ class Oorexx < Formula
     cd "./build" do
       system "make", "install"
     end
+    system "install_name_tool", "-add_rpath", "#{lib}", "#{lib}/librexx.dylib"
+    system "install_name_tool", "-add_rpath", "#{lib}", "#{lib}/librexxapi.dylib"
   end
 
   test do

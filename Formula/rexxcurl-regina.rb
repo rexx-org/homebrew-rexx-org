@@ -1,8 +1,8 @@
 class RexxcurlRegina < Formula
   desc "Rexx interface to curl using Regina"
   homepage "https://rexxcurl.sourceforge.io"
-  url "https://www.rexx.org/packages/rexxcurl-2.1.0.tar.gz"
-  sha256 "ce528f66b54a287634242e287ca73f6c033461eea818b81bd80bdd9239a2476e"
+  url "https://www.rexx.org/packages/rexxcurl-2.1.1.tar.gz"
+  sha256 "2de96230048738298fc042cdb149b21c0dba52aab6f311fdc64c8eeee5cc8605"
   license "CPL-1.0"
 
   depends_on "pkg-config" => :build
@@ -23,6 +23,6 @@ class RexxcurlRegina < Formula
   end
 
   test do
-    system "false"
+    assert_match "REXX-Regina", shell_output("#{bin}/rexxcurl -v")
   end
 end
