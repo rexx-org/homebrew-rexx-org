@@ -2,7 +2,7 @@ class RexxsqlCipher < Formula
   desc "Rexx interface to sqlcipher"
   homepage "https://rexxsql.sourceforge.io"
   url "https://www.rexx.org/packages/rexxsql-2.7.0.tar.gz"
-  sha256 "41f683fa37e6cec77fc5e1b02c3756b958054823ea280aef9ea821177ad172e2"
+  sha256 "2eaa9649e20e66dc22ee0f34ad0841f4285f0681ee4fae78a16f2a35e746c7a7"
   license "GPL-2.0-only"
 
   depends_on "regina-rexx"
