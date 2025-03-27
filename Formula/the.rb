@@ -3,7 +3,7 @@ class The < Formula
   homepage "https://hessling-editor.sourceforge.io"
 #  url "https://downloads.sourceforge.net/project/hessling-editor/hessling-editor/4.0/the-4.0.tar.gz"
   url "https://www.rexx.org/packages/the-4.0.1.tar.gz"
-  sha256 "d349bc93da0d96fc450e803ecbacf5d1056ed917d678a9d90aa2170bae0effca"
+  sha256 "71639852f3e545c07cde9eb3a5fac16743778372651426dc6ae78350fba82fa5"
   license "GPL-2.0-only"
 
   depends_on "pkg-config" => :build
