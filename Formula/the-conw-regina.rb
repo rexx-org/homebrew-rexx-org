@@ -2,7 +2,7 @@ class TheConwRegina < Formula
   desc "The Hessling Editor (the); ncursesw variant using Regina"
   homepage "https://hessling-editor.sourceforge.io"
   url "https://www.rexx.org/packages/the-4.0.1.tar.gz"
-  sha256 "71639852f3e545c07cde9eb3a5fac16743778372651426dc6ae78350fba82fa5"
+  sha256 "0c3e8e238c82ea277ca04e8b4f05c8250cd594fe4ad86ebbc98c49c9650ad3c8"
   license "GPL-2.0-only"
 
   depends_on "ncurses"
