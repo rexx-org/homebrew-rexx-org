@@ -3,7 +3,7 @@ class TheVtwRegina < Formula
   homepage "https://hessling-editor.sourceforge.io"
 #  url "https://downloads.sourceforge.net/project/hessling-editor/hessling-editor/4.0/the-4.0.tar.gz"
   url "https://www.rexx.org/packages/the-4.0.1.tar.gz"
-  sha256 "cd98518185a937bf37814c5c7b969432db69790a7ae8ea247008035826cf1715"
+  sha256 "a493554fe5df63a4c1f300cc6925de2fd74e721db78971720ec24bbd32352d61"
   license "GPL-2.0-only"
 
   depends_on "regina-rexx"
