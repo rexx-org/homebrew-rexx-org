@@ -2,7 +2,7 @@ class TheSdl2wOorexx < Formula
   desc "The Hessling Editor (the); sdl2w variant using ooRexx"
   homepage "https://hessling-editor.sourceforge.io"
   url "https://www.rexx.org/packages/the-4.0.1.tar.gz"
-  sha256 "a493554fe5df63a4c1f300cc6925de2fd74e721db78971720ec24bbd32352d61"
+  sha256 "0529d23c7b8d54e970a01cfcda85a3f326ec06927738577ae0c2b35ba2127795"
   license "GPL-2.0-only"
 
   depends_on "pkg-config"
