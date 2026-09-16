@@ -1,15 +1,15 @@
-class TheSdl2wOorexx < Formula
-  desc "The Hessling Editor (the); sdl2w variant using ooRexx"
+class TheSdl3wOorexx < Formula
+  desc "The Hessling Editor (the); sdl3w variant using ooRexx"
   homepage "https://hessling-editor.sourceforge.io"
   url "https://www.rexx.org/packages/the-4.0.1.tar.gz"
   sha256 "10b5263c16051ac0e8e66e80efbb49f36bc997648cced3c89f150db2c6282e03"
   license "GPL-2.0-only"
 
   depends_on "pkg-config"
-  depends_on "sdl2"
-  depends_on "sdl2_ttf"
+  depends_on "sdl3"
+  depends_on "sdl3_ttf"
   depends_on "the"
-  conflicts_with "the-sdl2w-regina", because: "only the Regina or ooRexx version of the-sdl2w can be installed at a time"
+  conflicts_with "the-sdl3w-regina", because: "only the Regina or ooRexx version of the-sdl3w can be installed at a time"
 
   def install
     ENV.deparallelize
@@ -17,7 +17,7 @@ class TheSdl2wOorexx < Formula
            *std_configure_args,
            "--disable-silent-rules",
            "--with-rexx=oorexx",
-           "--with-curses=pdcurses-sdl2w",
+           "--with-curses=pdcurses-sdl3w",
            "--with-arch=none",
            "--disable-font-check",
            "--with-homebrew=yes",

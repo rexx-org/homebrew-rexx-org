@@ -2,7 +2,7 @@ class TheX11wRegina < Formula
   desc "The Hessling Editor (the); x11w variant using Regina"
   homepage "https://hessling-editor.sourceforge.io"
   url "https://www.rexx.org/packages/the-4.0.1.tar.gz"
-  sha256 "0529d23c7b8d54e970a01cfcda85a3f326ec06927738577ae0c2b35ba2127795"
+  sha256 "10b5263c16051ac0e8e66e80efbb49f36bc997648cced3c89f150db2c6282e03"
   license "GPL-2.0-only"
 
   depends_on "regina-rexx"
